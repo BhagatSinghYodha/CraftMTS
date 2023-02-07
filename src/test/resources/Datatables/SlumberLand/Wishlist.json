@@ -1,0 +1,35 @@
+{
+  "Business_Flow":[
+    {
+      "TC_0085_VerifyAddingProductToWishlist":"goToLoginPage,performLogin,navToWishlist,removeWishlistProd,navigateToReclinersSearch,clickRandomProductName,getProductNameAndID,wishlistProduct",
+      "TC_0086_VerifyDeletingProductFromWishlist":"goToLoginPage,performLogin,navToWishlist,removeWishlistProd,navigateToReclinersSearch,clickRandomProductName,getProductNameAndID,wishlistProduct,removeWishlistProd",
+      "TC_0087_VerifyAddProductToCartFromWishlist":"goToLoginPage,performLogin,emptyCart,navToWishlist,removeWishlistProd,navigateToReclinersSearch,clickRandomProductName,getProductNameAndID,wishlistProduct,addToCartFromWishlist,viewCart,vrfyProdNameInCart"
+    }
+  ],
+  "General_Data":[
+    {
+      "TC_ID":"TC_0085_VerifyAddingProductToWishlist",
+      "Email":"TestAutoFname06TestAutoLname06@gmail.com",
+      "Password":"Test@123",
+      "FullName":"TestAutoFname06 TestAutoLname06",
+      "ProductName":"Marcy Cobblestone Rocker Recliner",
+      "ProductID":"QK1016395"
+    },
+    {
+      "TC_ID":"TC_0086_VerifyDeletingProductFromWishlist",
+      "Email":"TestAutoFname05TestAutoLname05@gmail.com",
+      "Password":"Test@123",
+      "FullName":"TestAutoFname05 TestAutoLname05",
+      "ProductName":"Pinnacle Cedar Leather Rocker Recliner",
+      "ProductID":"QK1031487"
+    },
+    {
+      "TC_ID":"TC_0087_VerifyAddProductToCartFromWishlist",
+      "Email":"TestAutoFname04TestAutoLname04@gmail.com",
+      "Password":"Test@123",
+      "FullName":"TestAutoFname04 TestAutoLname04",
+      "ProductName":"Jasper Fawn Rocker Recliner",
+      "ProductID":"7094967"
+    }
+  ]
+}

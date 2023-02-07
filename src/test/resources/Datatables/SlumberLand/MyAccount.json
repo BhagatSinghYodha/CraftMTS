@@ -1,0 +1,58 @@
+{
+  "Business_Flow":[
+    {
+      "Tc_0002_VerifyCreateAccount": "launchSlumberLand,navigateToCreateAccountPage,enterDataForCreateAccount",
+      "TC_0051_VerifyUIOfCreateAccountPage": "launchSlumberLand,navigateToCreateAccountPage,vrfyUIofCreateAccountPage",
+      "TC_0056_VerifyUIOfLoginPage": "launchSlumberLand,navigateToLoginPage,vrfyRetrngCustSctn,vrfyNewCustSctn,vrfyChkOrdrSctn",
+      "TC_0003_VerifyLogin": "launchSlumberLand,navigateToLoginPage,performLogin",
+      "TC_0052_VerifyRequiredFieldMsgInCreateAccountPage": "launchSlumberLand,navigateToCreateAccountPage,vrfyRequiredFieldMsgInCreateAccountPage",
+      "TC_0055_VerifyAcceptablePwdPolicyInCreateAccountPage": "launchSlumberLand,navigateToCreateAccountPage,vrfyPasswordPolicy",
+      "TC_0082_VerifyCreateAccountAfterOrderProcessingAsGuest":"goToReclinerSearch,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,validateGuestEmailAddress,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,selectPaymentMethod,clickReviewOrder,paymentByPayPal,clickPlaceOrderBtn,createAccountAfterOrder",
+      "TC_0092_VerifyUpdatePasswordFunctionality": "goToLoginPage,signIn,clickPersonalData,updatePassword,signout,signIn",
+      "TC_0093_VerifyUpdateAccountEmailFunctionality": "goToLoginPage,signIn,clickPersonalData,updateEmail,signout,signIn"
+    }
+  ],
+  "General_Data":[
+    {
+      "TC_ID":"Tc_0002_VerifyCreateAccount"
+    },
+    {
+      "TC_ID":"TC_0051_VerifyUIOfCreateAccountPage"
+    },
+    {
+      "TC_ID": "TC_0056_VerifyUIOfLoginPage"
+    },
+    {
+      "TC_ID":"TC_0003_VerifyLogin",
+      "Email": "prateek.s@changecx.com",
+      "Password": "India@123",
+      "FullName": "Prateek Singhal"
+    },
+    {
+      "TC_ID": "TC_0052_VerifyRequiredFieldMsgInCreateAccountPage"
+    },
+    {
+      "TC_ID": "TC_0055_VerifyAcceptablePwdPolicyInCreateAccountPage"
+    },
+    {
+      "TC_ID":"TC_0082_VerifyCreateAccountAfterOrderProcessingAsGuest",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(415) 333-4567",
+      "PaymentMode": "PayPal",
+      "PayPalEmail": "sb-odcvd15958535@personal.example.com",
+      "PayPalPassword": "VqWa>3w0"
+    },
+    {
+      "TC_ID": "TC_0092_VerifyUpdatePasswordFunctionality"
+    },
+    {
+      "TC_ID": "TC_0093_VerifyUpdateAccountEmailFunctionality"
+    }
+  ]
+}

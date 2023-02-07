@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="My Accounts Tests" parallel="tests" thread-count="4">
+    <test name="CreateAccountTests1">
+        <classes>
+            <class name="testcases.SlumberLand.MyAccount">
+                <methods>
+                    <include name="Tc_0002_VerifyCreateAccount"></include>
+                    <include name="TC_0051_VerifyUIOfCreateAccountPage"></include>
+                    <include name="TC_0052_VerifyRequiredFieldMsgInCreateAccountPage"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="CreateAccountTests2">
+        <classes>
+            <class name="testcases.SlumberLand.MyAccount">
+                <methods>
+                    <include name="TC_0056_VerifyUIOfLoginPage"></include>
+                    <include name="TC_0003_VerifyLogin"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SignInTests1">
+        <classes>
+            <class name="testcases.SlumberLand.MyAccount">
+                <methods>
+                    <include name="TC_0055_VerifyAcceptablePwdPolicyInCreateAccountPage"></include>
+                    <include name="TC_0092_VerifyUpdatePasswordFunctionality"></include>
+                    <include name="TC_0093_VerifyUpdateAccountEmailFunctionality"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SignInTests2">
+        <classes>
+            <class name="testcases.SlumberLand.MyAccount">
+                <methods>
+                    <include name="TC_0082_VerifyCreateAccountAfterOrderProcessingAsGuest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="CheckOut Flow Tests" parallel="tests" thread-count="2">
+    <test name="Guest Checkout Flows">
+        <classes>
+            <class name="testcases.SlumberLand.CheckoutFlow">
+                <methods>
+                    <include name="TC_0019_VerifyGuestCheckoutWithDeliverAddressUsingDiscoverCreditCard"></include>
+                    <include name="TC_0057_VerifyGuestCheckoutWithDeliverAddressUsingAmexCreditCard"></include>
+                    <include name="TC_0058_VerifyGuestCheckoutWithDeliverAddressUsingMasterCreditCard"></include>
+                    <include name="TC_0059_VerifyGuestCheckoutWithDeliverAddressUsingVisaCreditCard"></include>
+                    <include name="TC_0046_VerifyGuestCheckoutWithDeliverAddressUsingAffirmPayment"></include>
+                    <include name="TC_0047_VerifyGuestCheckoutWithDeliverAddressUsingPaypal"></include>
+                    <include name="TC_0069_VerifyGuestCheckoutWithPickUpInStoreUsingDiscoverCreditCard"></include>
+                    <include name="TC_0071_VerifyGuestCheckoutWithPickUpInStoreUsingAmexCreditCard"></include>
+                    <include name="TC_0072_VerifyGuestCheckoutWithPickUpInStoreUsingMasterCreditCard"></include>
+                    <include name="TC_0070_VerifyGuestCheckoutWithPickUpInStoreUsingVisaCreditCard"></include>
+                    <include name="TC_0067_VerifyGuestCheckoutWithPickUpInStoreUsingAffirmPayment"></include>
+                    <include name="TC_0068_VerifyGuestCheckoutWithPickUpInStoreUsingPaypal"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Registered User Checkout Flows">
+        <classes>
+            <class name="testcases.SlumberLand.CheckoutFlow">
+                <methods>
+                    <include name="Tc_CreateAccount"></include>
+                    <include name="TC_0063_VerifyCheckoutFlowWithDeliverAddressUsingDiscoverCreditCard"></include>
+                    <include name="TC_0062_VerifyCheckoutFlowWithDeliverAddressUsingAmexCreditCard"></include>
+                    <include name="TC_0064_VerifyCheckoutFlowWithDeliverAddressUsingMasterCreditCard"></include>
+                    <include name="TC_0061_VerifyCheckoutFlowWithDeliverAddressUsingVisaCreditCard"></include>
+                    <include name="TC_0066_VerifyCheckoutFlowWithDeliverAddressUsingAffirmPayment"></include>
+                    <include name="TC_0065_VerifyCheckoutFlowWithDeliverAddressUsingPaypal"></include>
+                    <include name="TC_0077_VerifyCheckoutFlowWithPickUpInStoreUsingDiscoverCreditCard"></include>
+                    <include name="TC_0078_VerifyCheckoutFlowWithPickUpInStoreUsingAmexCreditCard"></include>
+                    <include name="TC_0076_VerifyCheckoutFlowWithPickUpInStoreUsingMasterCreditCard"></include>
+                    <include name="TC_0075_VerifyCheckoutFlowWithPickUpInStoreUsingVisaCreditCard"></include>
+                    <include name="TC_0073_VerifyCheckoutFlowWithPickUpInStoreUsingAffirmPayment"></include>
+                    <include name="TC_0074_VerifyCheckoutFlowWithPickUpInStoreUsingPaypal"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

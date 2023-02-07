@@ -1,0 +1,24 @@
+{
+  "Business_Flow":[
+    {
+      "TC_0088_VerifyGuestsCanWriteProductReview":"goToAllMattresses,clickRandomProductName,clickWriteFirstReview,writeFirstReview",
+      "TC_0089_VerifyGuestsCanPostAQuestionForProduct":"goToReclinerSearch,clickRandomProductName,postQuestion",
+      "TC_0090_VerifyRegUserCanWriteProductReview":"goToLoginPage,signIn,navigateToReclinersSearch,clickRandomProductName,clickWriteFirstReview,writeFirstReview",
+      "TC_0091_VerifyRegUserCanPostAQuestionForProduct":"goToLoginPage,signIn,navigateToAllMattresses,clickRandomProductName,postQuestion"
+    }
+  ],
+  "General_Data":[
+    {
+      "TC_ID":"TC_0088_VerifyGuestsCanWriteProductReview"
+    },
+    {
+      "TC_ID":"TC_0089_VerifyGuestsCanPostAQuestionForProduct"
+    },
+    {
+      "TC_ID":"TC_0090_VerifyRegUserCanWriteProductReview"
+    },
+    {
+      "TC_ID":"TC_0091_VerifyRegUserCanPostAQuestionForProduct"
+    }
+  ]
+}

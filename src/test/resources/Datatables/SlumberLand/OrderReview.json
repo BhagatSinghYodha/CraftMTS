@@ -1,0 +1,80 @@
+{
+  "Business_Flow":[
+    {
+      "TC_0079_VerifyGuestUserCanEditDeliveryAddressFromBillingPage": "goToAllChairs,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,validateGuestEmailAddress,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,clickEditDeliveryAddress,selectRandomStore,clickContinueToPaymentBtn,vrfyDeliveryMethod",
+      "TC_0080_VerifyGuestUserCanEditOrderSummarySectionFromBillingPage": "goToAllMattresses,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,validateGuestEmailAddress,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,editOrderSummaryAndVerify",
+      "TC_0081_VerifyGuestUserCanEditYourOrderSectionFromBillingPage": "goToReclinerSearch,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,validateGuestEmailAddress,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,editYourOrderAndVerify",
+      "TC_0020_VerifyRegUserCanEditYourOrderSectionFromBillingPage": "goToLoginPage,signIn,emptyCart,navigateToAllChairs,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,editYourOrderAndVerify",
+      "TC_0021_VerifyRegUserCanEditOrderSummarySectionFromBillingPage": "goToLoginPage,signIn,emptyCart,navigateToAllChairs,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,editOrderSummaryAndVerify",
+      "TC_0022_VerifyRegUserCanEditDeliveryAddressFromBillingPage": "goToLoginPage,signIn,emptyCart,navigateToAllChairs,clickRandomProductName,clickAddToCartBtn,clickViewCartBtnInPopup,clickSecureCheckOutBtn,clickDeliverToAnAddress,enterAddressDetails,clickContinueToPaymentBtn,clickEditDeliveryAddress,selectRandomStore,clickContinueToPaymentBtn,vrfyDeliveryMethod"
+    }
+  ],
+  "General_Data":[
+    {
+      "TC_ID":"TC_0079_VerifyGuestUserCanEditDeliveryAddressFromBillingPage",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(777) 778-8888"
+    },
+    {
+      "TC_ID":"TC_0080_VerifyGuestUserCanEditOrderSummarySectionFromBillingPage",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(777) 778-8888"
+    },
+    {
+      "TC_ID":"TC_0081_VerifyGuestUserCanEditYourOrderSectionFromBillingPage",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(777) 778-8888"
+    },
+    {
+      "TC_ID":"TC_0020_VerifyRegUserCanEditYourOrderSectionFromBillingPage",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(777) 778-8888"
+    },
+    {
+      "TC_ID":"TC_0021_VerifyRegUserCanEditOrderSummarySectionFromBillingPage",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(777) 778-8888"
+    },
+    {
+      "TC_ID":"TC_0022_VerifyRegUserCanEditDeliveryAddressFromBillingPage",
+      "FirstName": "prateek",
+      "LastName": "singhal",
+      "Address": "615 W Town Center Blvd",
+      "City": "Champaign",
+      "Zip": "61822-1247",
+      "Country": "United States",
+      "State": "Illinois",
+      "Mobile": "(777) 778-8888"
+    }
+  ]
+}

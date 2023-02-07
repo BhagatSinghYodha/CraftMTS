@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Search Product Tests" parallel="tests" thread-count="4">
+    <test name="SearchProductsTests1">
+        <classes>
+            <class name="testcases.SlumberLand.ProductSearch">
+                <methods>
+                    <include name="TC_0029_VerifyProductSearchFunctionality"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SearchProductsTests2">
+        <classes>
+            <class name="testcases.SlumberLand.ProductSearch">
+                <methods>
+                    <include name="TC_0026_VerifyNoProductsFoundMsg"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SearchProductsTests3">
+        <classes>
+            <class name="testcases.SlumberLand.ProductSearch">
+                <methods>
+                    <include name="TC_0083_VerifyGuestUserProdSearchByProductID"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="SearchProductsTests4">
+        <classes>
+            <class name="testcases.SlumberLand.ProductSearch">
+                <methods>
+                    <include name="TC_0084_VerifyRegUserProdSearchByProductID"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

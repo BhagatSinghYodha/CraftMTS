@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Wishlist Tests" parallel="tests" thread-count="3">
+    <test name="WishlistTests1">
+        <classes>
+            <class name="testcases.SlumberLand.Wishlist">
+                <methods>
+                    <include name="TC_0085_VerifyAddingProductToWishlist"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WishlistTests2">
+        <classes>
+            <class name="testcases.SlumberLand.Wishlist">
+                <methods>
+                    <include name="TC_0086_VerifyDeletingProductFromWishlist"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="WishlistTests3">
+        <classes>
+            <class name="testcases.SlumberLand.Wishlist">
+                <methods>
+                    <include name="TC_0087_VerifyAddProductToCartFromWishlist"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

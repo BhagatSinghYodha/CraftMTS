@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Demo">
+    <suite-files>
+        <suite-file path="../SlumberLand/MyAccount.xml"></suite-file>
+        <suite-file path="../SlumberLand/OrderReview.xml"></suite-file>
+        <suite-file path="../SlumberLand/ProductSearch.xml"></suite-file>
+        <!--<suite-file path="../SlumberLand/CheckoutFlow.xml"></suite-file>-->
+        <suite-file path="../SlumberLand/UserCheckoutFlow.xml"></suite-file>
+        <suite-file path="../SlumberLand/Wishlist.xml"></suite-file>
+        <suite-file path="../SlumberLand/ProductReview.xml"></suite-file>
+    </suite-files>
+</suite>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Review a Product Tests" parallel="tests" thread-count="4">
+    <test name="Guest - ReviewProductTests1">
+        <classes>
+            <class name="testcases.SlumberLand.ProductReview">
+                <methods>
+                    <include name="TC_0088_VerifyGuestsCanWriteProductReview"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Guest - ReviewProductTests2">
+        <classes>
+            <class name="testcases.SlumberLand.ProductReview">
+                <methods>
+                    <include name="TC_0089_VerifyGuestsCanPostAQuestionForProduct"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="RegUser - ReviewProductTests1">
+        <classes>
+            <class name="testcases.SlumberLand.ProductReview">
+                <methods>
+                    <include name="TC_0090_VerifyRegUserCanWriteProductReview"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="RegUser - ReviewProductTests2">
+        <classes>
+            <class name="testcases.SlumberLand.ProductReview">
+                <methods>
+                    <include name="TC_0091_VerifyRegUserCanPostAQuestionForProduct"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
